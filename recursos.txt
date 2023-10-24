@@ -1,0 +1,54 @@
+Primeros passos
+
+TELAS DE LOGIN E CADASTRO
+
+LOGIN:
+    - User
+    - Password
+    - Goofle
+
+CADASTRO:
+    - Nome completo
+    - E-mail
+    - Senha
+    - Celular
+
+REQUISITOS DO SISTEMA:
+    + Localizar e mostrar casas
+    + Categorizar casa
+    + Permitir locator adicinar casas
+
+CORES:
+    .color1 { #fdf22f };
+    .color2 { #fef54b };
+    .color3 { #fef967 };
+    .color4 { #fffc83 };
+    .color5 { #ffff9f };
+
+    .color1 { #00ea99 };
+    .color2 { #29efb2 };
+    .color3 { #52f5cc };
+    .color4 { #7afae5 };
+    .color5 { #a3fffe };
+
+SLOGAN:
+    - "A Chave para Seu Futuro: Aluguel e Compra de Imóveis"
+
+
+PAGINA INICIAL:
+    Logo/link           anunciar    login singup
+
+    Foto            formulario
+                        - cidade
+                        - Alugar/Comprar
+    
+
+    Recomendações
+
+    1Pes  2Pes Familia / Com Pet 
+
+    Destaques
+
+    casa/casa/casa
+
+    
