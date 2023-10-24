@@ -31,6 +31,11 @@ CORES:
     .color4 { #7afae5 };
     .color5 { #a3fffe };
 
+    #213644
+    #c6ab7c
+    #595243
+
+
 SLOGAN:
     - "A Chave para Seu Futuro: Aluguel e Compra de Imóveis"
 
@@ -51,4 +56,3 @@ PAGINA INICIAL:
 
     casa/casa/casa
 
-    
