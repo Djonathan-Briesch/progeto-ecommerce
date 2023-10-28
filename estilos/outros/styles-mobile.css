@@ -1,0 +1,59 @@
+/*  Importação das cores*/
+@import url(../recursos/cores.css);
+
+header {
+  margin-bottom: 10px;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-principal);
+  color: var(--cor-branco);
+}
+
+header > .container-logo > a > img {
+  width: 60px;
+}
+
+header .container-contas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+header .container-contas a {
+  text-decoration: none;
+  color: var(--cor-preto);
+}
+
+header .container-contas .container-conta-anunciante > a > p {
+  font-size: 1.07em;
+  color: var(--cor-branco);
+  text-shadow: 1px 1px 1px var(--cor-preto);
+}
+
+header .container-contas .container-entrar-conta > a > button {
+  padding: 10px;
+  background-color: var(--cor-branco);
+  color: var(--cor-secundaria);
+  border: 2px solid var(--cor-complementar);
+  border-radius: 8px;
+  font-size: 1.05em;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px #0000003a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+header .container-contas .container-entrar-conta > a > button > i {
+  font-size: 1.7em;
+  text-shadow: 1px 1px 1px #0000003a;
+}
+
+header .container-contas .container-criar-conta {
+  display: none;
+}

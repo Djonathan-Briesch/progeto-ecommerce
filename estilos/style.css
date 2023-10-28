@@ -1,0 +1,9 @@
+/*
+    ESTILO PRINCIPAL - IMPORTACOES
+*/
+
+/*  Estilos de formatação e comuns  */
+@import url(outros/styles-geral.css);
+
+/*  Estilo para mobile/celulares    */
+@import url(outros/styles-mobile.css);
