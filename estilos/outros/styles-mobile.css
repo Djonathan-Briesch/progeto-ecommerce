@@ -2,8 +2,7 @@
 @import url(../recursos/cores.css);
 
 header {
-  margin-bottom: 10px;
-  padding: 20px 15px;
+  padding:15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,4 +55,112 @@ header .container-contas .container-entrar-conta > a > button > i {
 
 header .container-contas .container-criar-conta {
   display: none;
+}
+
+/*  MAIN  */
+main{
+  
+}
+
+main .container-conteudo-principal{
+  margin-bottom: 100px;
+}
+
+main .container-conteudo-principal .container-img-principal{
+  position: absolute;
+  top: 86px;
+  left: 0;
+  z-index: -1;
+}
+main .container-conteudo-principal .container-img-principal > img {
+  width: 100%;
+  filter: brightness(.5);
+}
+
+main .container-conteudo-principal .container-titulo-principal{
+  margin: 40px 20px;
+  padding: 40px;
+  padding-bottom: 0px;
+  color: var(--cor-branco);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+main .container-conteudo-principal .container-titulo-principal > h1{
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main .container-form-busca{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--cor-branco);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .container-form-busca > form .container-input-cidade{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .container-form-busca > form .container-input-cidade > label{
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+main .container-form-busca > form .container-input-cidade input{
+  width: 100%;
+  margin-block: 20px;
+  padding: 10px;
+  border: 2px solid var(--cor-complementar);
+  border-radius: 10px;
+}
+
+main .container-form-busca > form .container-input-opcao{
+  margin-block: 10px;
+}
+main .container-form-busca > form .container-input-opcao p{
+  font-size: 1.1em;
+  margin-block: 10px;
+}
+
+main .container-form-busca > form .container-input-opcao .container-btn{
+ display: flex;
+  gap: 8px;
+}
+main .container-form-busca > form .container-input-opcao .container-btn button{
+  padding: 8px;
+  border: none;
+  background-color: var(--cor-branco);
+  color: var(--cor-preto);
+  font-weight: bold;
+  flex: 1;
+}
+
+main .container-form-busca .container-btn-buscar{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container-form-busca .container-btn-buscar > button{
+ width: 90%;
+ margin-top: 10px;
+ padding: 13px;
+ border-radius: 5px;
+ background-color: var(--cor-secundaria);
+ color: var(--cor-branco);
+ border: 1px solid var(--cor-preto);
+ font-size: 1.15em;
+ font-weight: bold;
+ text-shadow: 1px 1px 3px black;
+}
+/*  CLASSE PARA OS BOTOES SELECIONADOS DE ALUGAR OU COMPRAR*/
+.selecionado{
+  border-bottom: 3px solid var(--cor-secundaria) !important;
+  color: var(--cor-principal) !important;
 }

@@ -27,7 +27,9 @@
         <div class="container-entrar-conta">
           <a href="paginas/login.html">
             <button class="btn-entrar-conta">
-              <i class="material-symbols-outlined icone-criar-conta"> person </i>
+              <i class="material-symbols-outlined icone-criar-conta">
+                person
+              </i>
               Entrar
             </button>
           </a>
@@ -40,83 +42,91 @@
       </section>
     </header>
     <main>
-      <section class="container-img-principal">
-        <img src="imagens/pessoas/ilustrativa.jpg" alt="Imagem ilustrativa" />
+      <section class="container-conteudo-principal">
+        <section class="container-img-principal">
+          <img src="imagens/pessoas/ilustrativa.jpg" alt="Imagem ilustrativa" />
+        </section>
+
+        <section class="container-titulo-principal">
+          <h1>A Chave para Seu Futuro: Aluguel e Compra de Imóveis</h1>
+          <p>Infinitas oportunidades para ter o lar dos seus sonhos</p>
+        </section>
+        <section class="container-form-busca">
+          <form action="get">
+            <div class="container-input-cidade">
+              <label for="cidade">Qual o CEP da sua cidade?</label>
+              <input type="number" id="cidade" placeholder="00000-000" />
+            </div>
+            <div class="container-input-opcao">
+              <p>Você quer:</p>
+              <div class="container-btn">
+                <button class="selecionado">Alugar</button>
+                <button >Comprar</button>
+              </div>
+            </div>
+            <div class="container-btn-buscar">
+              <button class="btn-buscar-imoveis">Buscar imóveis</button>
+            </div>
+          </form>
+        </section>
       </section>
-      <section class="container-titulo-principal">
-        <h1>A Chave para Seu Futuro: Aluguel e Compra de Imóveis</h1>
-        <p>Infinitas oportunidades para ter o lar dos seus sonhos</p>
-      </section>
-      <section class="container-form-busca">
-        <form action="get" class="box-form">
-          <div class="container-input-cidade">
-            <label for="cidade">Qual o CEP da sua cidade?</label>
-            <input type="number" id="cidade" placeholder="00000-000" />
+      <section class="container-conteudo-navegacao">
+        <section class="conatiner-recomendacoes">
+          <div class="container-titulo-recomendacoes">
+            <h1>Recomendações para cada perfil</h1>
           </div>
-          <div class="container-input-checkbox">
-            <p>Você quer:</p>
-            <label for="alugar">Alugar</label>
-            <input type="checkbox" id="alugar" />
-            <label for="comprar">Comprar</label>
-            <input type="checkbox" id="comprar" />
+          <div class="container-recomendados">
+            <a href="#">
+              <div class="recomendados recomendado-sozinho">
+                <img
+                  src="imagens/pessoas/1pessoa.jpg"
+                  alt="Imagem com 1 pessoa"
+                />
+                <p>Para 1 pessoa</p>
+                <p>Imóveis ideais para quem quer morar sozinho</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="recomendados recomendado-casal">
+                <img src="imagens/pessoas/casal.jpg" alt="Imagem de casal" />
+                <p>Para o par perfeito</p>
+                <p>
+                  Procurando um lugar perfeito para morar com o mozão? É aqui!
+                </p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="recomendados recomendado-familia">
+                <img
+                  src="imagens/pessoas/familia.jpg"
+                  alt="Imagem de família"
+                />
+                <p>Espaço para toda a família</p>
+                <p>Áreas com bastante espaço para brincar com as crianças</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="recomendados recomendado-com-pet">
+                <img
+                  src="imagens/pessoas/pet.jpg"
+                  alt="Imagem de pessoa com animal"
+                />
+                <p>Quer espaço para o seu pet?</p>
+                <p>Imóveis com pátios grandes para seu animal se divertir</p>
+              </div>
+            </a>
           </div>
-          <div class="container-btn-buscar">
-            <button class="btn-buscar-imoveis">Buscar imóveis</button>
+        </section>
+        <section class="conatiner-destaques">
+          <div class="conatiner-titulo-destaques">
+            <p>Destaques</p>
           </div>
-        </form>
-      </section>
-      <section class="conatiner-recomendacoes">
-        <div class="container-titulo-recomendacoes">
-          <h1>Recomendações para cada perfil</h1>
-        </div>
-        <div class="container-recomendados">
-          <a href="#">
-            <div class="recomendados recomendado-sozinho">
-              <img
-                src="imagens/pessoas/1pessoa.jpg"
-                alt="Imagem com 1 pessoa"
-              />
-              <p>Para 1 pessoa</p>
-              <p>Imóveis ideais para quem quer morar sozinho</p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="recomendados recomendado-casal">
-              <img src="imagens/pessoas/casal.jpg" alt="Imagem de casal" />
-              <p>Para o par perfeito</p>
-              <p>
-                Procurando um lugar perfeito para morar com o mozão? É aqui!
-              </p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="recomendados recomendado-familia">
-              <img src="imagens/pessoas/familia.jpg" alt="Imagem de família" />
-              <p>Espaço para toda a família</p>
-              <p>Áreas com bastante espaço para brincar com as crianças</p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="recomendados recomendado-com-pet">
-              <img
-                src="imagens/pessoas/pet.jpg"
-                alt="Imagem de pessoa com animal"
-              />
-              <p>Quer espaço para o seu pet?</p>
-              <p>Imóveis com pátios grandes para seu animal se divertir</p>
-            </div>
-          </a>
-        </div>
-      </section>
-      <section class="conatiner-destaques">
-        <div class="conatiner-titulo-destaques">
-          <p>Destaques</p>
-        </div>
-        <div class="conatiner-destacados">
-          <div class="destacados destacado1"></div>
-          <div class="destacados destacado2"></div>
-          <div class="destacados destacado3"></div>
-        </div>
+          <div class="conatiner-destacados">
+            <div class="destacados destacado1"></div>
+            <div class="destacados destacado2"></div>
+            <div class="destacados destacado3"></div>
+          </div>
+        </section>
       </section>
     </main>
     <footer>
